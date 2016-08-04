@@ -3,12 +3,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
-  <title>go fish!</title>
+  <title>H&amp;D2016—Go Fish!</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,6 +17,21 @@
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+    <h1>Fishing Radio</h1>
+    <div class="description">
+  	  <p><em>Fishing Radio</em> is an experiment in using radio signals to send data (a drawing of a fish) to a printer, etc etc.</p>
+    </div>
+
+    <button>go fish!</button>
+
+    <audio>
+      <source src=".mp3" type='audio/mpeg; codecs="mp3"'>
+      <source src=".oga" type='audio/ogg; codecs="vorbis"'>
+     <!-- add your fallback solution here -->
+    </audio>
+
+  <!--  scripts -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="assets/js/scripts.js"></script>
 </body>
 </html>
