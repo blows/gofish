@@ -16,15 +16,16 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  height: 100%;
 }
 
 body {
-	background-image: linear-gradient(-180deg, #A899FF 0%, #00048A 100%);
-  background-color: #67FFA9;
-	height: 100vh;
+	background-image: linear-gradient(-180deg, #A899FF 0%, #0F13B5 100%);
+  background-color: #4E36DD;
+	height: 100%;
+	max-width: 39rem;
   margin: 0 auto;
-  padding: 1.5rem 0.9rem;
-  max-width: 39rem;
+  padding: 0.9rem;
   font-size: 18.5px;
   line-height: 1.2; 
   font-family: serif;
@@ -56,7 +57,7 @@ a, button {
 }
 
 a {
-  text-decoration: none;
+	color: #ffffff;
 }
 
 button {
@@ -80,17 +81,25 @@ button {
   outline: 0;
 }
 
-/*img {
-  max-width: 100%;
-  height: auto;
-  border: 0;
-}*/
-
 /* Layout */
 
+.wrapper {
+  min-height: 100%;
+	margin-bottom: -3rem;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
+.footer, .wrapper:after {
+	height: 3rem; 
+}
+
 .description {
-	margin: 1.5rem auto 3rem auto;
-	padding: 0 0 0 1.2rem;
+	margin: 1.5rem auto;
+	padding: 0 0 0 1.5rem;
 }
 
 @-webkit-keyframes pulse_bg {
@@ -115,8 +124,9 @@ button {
 
 .button--fish {
 	margin: 0;
+	padding: 3rem;
 	width: 100%;
-	height: 65%;
+	height: 50%;
 	border-radius: 50%;
 	font-size: 3rem;
 	-webkit-animation: pulse_bg 1.45s infinite alternate;
@@ -127,5 +137,9 @@ button {
 }
 
 .button--fish:hover {
-  background-color: #080A53;
+  background-color: #0F13B5;
+}
+
+footer {
+	height: 3rem;
 }
