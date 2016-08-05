@@ -19,19 +19,21 @@
 <body>
     <h1>Fishing Radio</h1>
     <div class="description">
-  	  <p><em>Fishing Radio</em> is an experiment in using radio signals to send data (a drawing of a fish) to a printer, etc etc.</p>
+  	  <p>Connect your phone to the rod.</p>
+  	  <p>Hold the hook close to the screen.</p>
+      <p>Go fish! to see what you will catch.</p>
     </div>
 
     <button>go fish!</button>
 
-    <audio controls preload="auto">
-      <source src="assets/audio/test.mp3" type='audio/mpeg; codecs="mp3"'>
-      <source src="assets/audio/test.ogg" type='audio/ogg; codecs="vorbis"'>
+    <audio controls preload="auto" class="audio-track">
+      <source src="" type='audio/mpeg; codecs="mp3"' class="audio-track--mp3">
+      <source src="" type='audio/ogg; codecs="vorbis"' class="audio-track--ogg">
      <!-- add your fallback solution here -->
     </audio>
 
   <!--  scripts -->
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="assets/js/scripts.js"></script>
 </body>
 </html>
