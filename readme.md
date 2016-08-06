@@ -7,7 +7,7 @@ It was made in two days by [Hannah Blows](http://thisblows.uk/), [Julia Zabowska
 
 * * *
 
-!UPDATING! 🐟
+Updating! 🐟
 
 * * *
 
