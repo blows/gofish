@@ -1,0 +1,105 @@
+><(((*> Radio Fishing ><(((*>
+
+1. iPhone connected to a radio transmitter
+2. iPhone connects to a website with prerecorded audio files
+3. These prerecorded audio files are produced converting documents into audio signals using minimodem
+4. A computer has a radio receiver that tune in to the waves of the audio files
+5. This computer is also connected to a thermal printer
+6. Once an iPhone comes close enough to the computer, a connection is established between the two devices, the radio-computer decodes the audio file and printswuwu it out!
+⤵︎
+**VICTORY**
+
+Fish to Fry
+1. Transmitter PCB hook
+- Design PCB
+- Mill/Expose PCB
+- Build circuit integrated into fishing rod
+1.1 Fishing rod
+- Fishing line as antenna
+- Handle needs a phone mount for connecting audio
+- Battery located near handle and phone for comfortable weighting
+- Build rod
+
+2. Website
+- Choose/design super simple fish (and other pond bumf, boot, bike wheel)
+- Record fish as audio files
+- Make website 'Go fish!' button
+(2.1 Dowse connection so we can phish data about phone?)
+
+3. Printer / Computer / Minimodem
+- Connect radio receiver to laptop - using radio in build in microphone
+- Minimodem decode signals
+- Print signals
+
+
+Printer Settings and Commands
+Print a fish without headers and big size and no border - echo "><)))*>" | a2ps --font-size=21 -2Rf40 -B --borders=no | lp
+
+Send radio fish : while true; do echo '><)))*>' | minimodem -t 10; done
+
+
+Mechanical Fish
+1. Fishing rod
+2. Website
+3. How to remotely send fish to print
+
+
+
+
+Hannah's Evening Fishing
+Live print / printer after buffer
+Remove "request id is Star_TSP143__STR_T_001_-426 (0 file(s))" after each print
+
+EVERYTHING IS HARD :D 
+
+
+Website Text
+Radio Fishing
+Connect your phone to the rod. 
+Hold the hook close to the screen. (Maybe the reciever and radio can be behind the screen, screen with the fish screensaver playing?)
+Go fish! to see what you will catch.
+
+[Go fish!] button
+
+
+What's in the pond?
+Nothing's biting...
+
+No luck this time...
+
+Oh...an old bike wheel...
+
+<>< 
+
+><(((*>
+
+Is it possible to print multiple lines?
+echo -e " __+\n/o \/+\n\__/\" | a2ps --font-size=21 -2Rf40 -B --borders=no | lp
+
+ __
+/o \/
+\__/\
+
+ _///_
+/o    \/
+> ))_./\
+   <
+
+ _/|_/
+<').-\
+ ``
+ 
+     ,
+  . ~ ~ . 
+.'@ ))}}> '..~
+> - ~``  '~\{
+            \ 
+ 
+  |
+  |
+  !
+  J
+  _/o
+~~\_)\~~~
+
+
